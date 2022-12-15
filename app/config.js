@@ -3,6 +3,6 @@ dotenv.config();
 
 module.exports = {
   urlDb : process.env.URL_MONGODB_DEV,
-  jwtExpiration: '1h',
+  jwtExpiration: '24h',
   jwtSecret: 'jwtSecret',
 };

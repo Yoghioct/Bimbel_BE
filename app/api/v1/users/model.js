@@ -17,7 +17,7 @@ const userSchema = new mongoose.Schema(
     password: {
       type: String,
       required: [true, 'Password harus diisi'],
-      minlength: 8,
+      minlength: 6,
     },
     role: {
       type: String,
