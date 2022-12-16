@@ -1,0 +1,289 @@
+[{
+  "_id": {
+    "$oid": "639b9251567803a81b68b9fb"
+  },
+  "title": "Persiapan SD - 1",
+  "date": {
+    "$date": {
+      "$numberLong": "1671066974000"
+    }
+  },
+  "description": "Lorem Ipsum Dolor Sit Amet",
+  "price": 100000,
+  "statusBimbel": "Draft",
+  "typeBimbel": "Offline",
+  "period": "1 Bulan",
+  "image": {
+    "$oid": "639b91b4567803a81b68b9f5"
+  },
+  "category": {
+    "$oid": "639b908f567803a81b68b9f3"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671139921456"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671144560155"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639b9253567803a81b68ba00"
+  },
+  "title": "Persiapan SD - 2",
+  "date": {
+    "$date": {
+      "$numberLong": "1671066974000"
+    }
+  },
+  "description": "Lorem Ipsum Dolor Sit Amet",
+  "price": 100000,
+  "statusBimbel": "Published",
+  "typeBimbel": "Offline",
+  "period": "1 Bulan",
+  "image": {
+    "$oid": "639b91b4567803a81b68b9f5"
+  },
+  "category": {
+    "$oid": "639b908f567803a81b68b9f3"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671139923719"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671139923719"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639b9255567803a81b68ba05"
+  },
+  "title": "Persiapan SD - 3",
+  "date": {
+    "$date": {
+      "$numberLong": "1671066974000"
+    }
+  },
+  "description": "Lorem Ipsum Dolor Sit Amet",
+  "price": 100000,
+  "statusBimbel": "Published",
+  "typeBimbel": "Offline",
+  "period": "1 Bulan",
+  "image": {
+    "$oid": "639b91b4567803a81b68b9f5"
+  },
+  "category": {
+    "$oid": "639b908f567803a81b68b9f3"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671139925793"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671139925793"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639b9296567803a81b68ba0a"
+  },
+  "title": "Persiapan SMP - 1",
+  "date": {
+    "$date": {
+      "$numberLong": "1671066974000"
+    }
+  },
+  "description": "Lorem Ipsum Dolor Sit Amet",
+  "price": 100000,
+  "statusBimbel": "Published",
+  "typeBimbel": "Online",
+  "period": "1 Bulan",
+  "image": {
+    "$oid": "639b91b4567803a81b68b9f5"
+  },
+  "category": {
+    "$oid": "639b9072b8cf5d93bd47606c"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671139990074"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671139990074"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639b929a567803a81b68ba0f"
+  },
+  "title": "Persiapan SMP - 2",
+  "date": {
+    "$date": {
+      "$numberLong": "1671066974000"
+    }
+  },
+  "description": "Lorem Ipsum Dolor Sit Amet",
+  "price": 100000,
+  "statusBimbel": "Published",
+  "typeBimbel": "Offline",
+  "period": "1 Bulan",
+  "image": {
+    "$oid": "639b91b4567803a81b68b9f5"
+  },
+  "category": {
+    "$oid": "639b9072b8cf5d93bd47606c"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671139994990"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671139994990"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639b929d567803a81b68ba14"
+  },
+  "title": "Persiapan SMP - 3",
+  "date": {
+    "$date": {
+      "$numberLong": "1671066974000"
+    }
+  },
+  "description": "Lorem Ipsum Dolor Sit Amet",
+  "price": 100000,
+  "statusBimbel": "Published",
+  "typeBimbel": "Offline",
+  "period": "1 Bulan",
+  "image": {
+    "$oid": "639b91b4567803a81b68b9f5"
+  },
+  "category": {
+    "$oid": "639b9072b8cf5d93bd47606c"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671139997127"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671139997127"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639b92b0567803a81b68ba19"
+  },
+  "title": "Persiapan SMA - 1",
+  "date": {
+    "$date": {
+      "$numberLong": "1671066974000"
+    }
+  },
+  "description": "Lorem Ipsum Dolor Sit Amet",
+  "price": 100000,
+  "statusBimbel": "Published",
+  "typeBimbel": "Online",
+  "period": "1 Bulan",
+  "image": {
+    "$oid": "639b91b4567803a81b68b9f5"
+  },
+  "category": {
+    "$oid": "639b906db8cf5d93bd476069"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671140016187"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671140016187"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639b92b8567803a81b68ba1e"
+  },
+  "title": "Persiapan SMA - 2",
+  "date": {
+    "$date": {
+      "$numberLong": "1671066974000"
+    }
+  },
+  "description": "Lorem Ipsum Dolor Sit Amet",
+  "price": 100000,
+  "statusBimbel": "Published",
+  "typeBimbel": "Offline",
+  "period": "1 Bulan",
+  "image": {
+    "$oid": "639b91b4567803a81b68b9f5"
+  },
+  "category": {
+    "$oid": "639b906db8cf5d93bd476069"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671140024059"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671140024059"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639b92ba567803a81b68ba23"
+  },
+  "title": "Persiapan SMA - 3",
+  "date": {
+    "$date": {
+      "$numberLong": "1671066974000"
+    }
+  },
+  "description": "Lorem Ipsum Dolor Sit Amet",
+  "price": 100000,
+  "statusBimbel": "Published",
+  "typeBimbel": "Offline",
+  "period": "1 Bulan",
+  "image": {
+    "$oid": "639b91b4567803a81b68b9f5"
+  },
+  "category": {
+    "$oid": "639b906db8cf5d93bd476069"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671140026376"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671140026376"
+    }
+  },
+  "__v": 0
+}]

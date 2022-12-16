@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "639b906db8cf5d93bd476069"
+  },
+  "name": "SMA",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671139437893"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671139437893"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639b9072b8cf5d93bd47606c"
+  },
+  "name": "SMP",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671139442410"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671139442410"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639b908f567803a81b68b9f3"
+  },
+  "name": "SD",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671139471130"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671139471130"
+    }
+  },
+  "__v": 0
+}]

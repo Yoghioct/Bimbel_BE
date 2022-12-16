@@ -1,0 +1,654 @@
+{
+	"info": {
+		"_postman_id": "0021783a-f267-40dd-a0ee-f073556feaf7",
+		"name": "BP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15400066"
+	},
+	"item": [
+		{
+			"name": "Categories",
+			"item": [
+				{
+					"name": "Get All Categories",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL_DEV}}/cms/categories",
+							"host": [
+								"{{URL_DEV}}"
+							],
+							"path": [
+								"cms",
+								"categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get One Categories",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL_DEV}}/cms/categories/",
+							"host": [
+								"{{URL_DEV}}"
+							],
+							"path": [
+								"cms",
+								"categories",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Categories",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{URL_DEV}}/cms/categories",
+							"host": [
+								"{{URL_DEV}}"
+							],
+							"path": [
+								"cms",
+								"categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Categories",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"onlines\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL_DEV}}/cms/categories",
+							"host": [
+								"{{URL_DEV}}"
+							],
+							"path": [
+								"cms",
+								"categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Categories",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"SD\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL_DEV}}/cms/categories",
+							"host": [
+								"{{URL_DEV}}"
+							],
+							"path": [
+								"cms",
+								"categories"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Bimbel",
+			"item": [
+				{
+					"name": "Get All Bimbel",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL_DEV}}/cms/bimbel",
+							"host": [
+								"{{URL_DEV}}"
+							],
+							"path": [
+								"cms",
+								"bimbel"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get One Bimbel",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL_DEV}}/cms/bimbel/639b652cccee544a4a67ca61",
+							"host": [
+								"{{URL_DEV}}"
+							],
+							"path": [
+								"cms",
+								"bimbel",
+								"639b652cccee544a4a67ca61"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Bimbel",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{URL_DEV}}/cms/bimbel/639a83aca0ce2b53da85f17e",
+							"host": [
+								"{{URL_DEV}}"
+							],
+							"path": [
+								"cms",
+								"bimbel",
+								"639a83aca0ce2b53da85f17e"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Bimbel",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"title\": \"Les Bahasa Inggris\",\r\n\"date\": \"2022/12/15 08:16:14\",\r\n\"description\": \"Lorem Ipsum Dolor Sit Amet\",\r\n\"price\": \"100000\",\r\n\"statusBimbel\": \"Published\",\r\n\"typeBimbel\": \"Offline\",\r\n\"period\": \"1 Bulan\",\r\n\"image\": \"639b6131402396a9ac3c62bf\",\r\n\"category\": \"639a9e4c9f9a2f9907daa34a\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL_DEV}}/cms/bimbel/639b652cccee544a4a67ca61s",
+							"host": [
+								"{{URL_DEV}}"
+							],
+							"path": [
+								"cms",
+								"bimbel",
+								"639b652cccee544a4a67ca61s"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Bimbel",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"title\": \"Persiapan SMA - 3\",\r\n\"date\": \"2022/12/15 08:16:14\",\r\n\"description\": \"Lorem Ipsum Dolor Sit Amet\",\r\n\"price\": \"100000\",\r\n\"statusBimbel\": \"Published\",\r\n\"typeBimbel\": \"Offline\",\r\n\"period\": \"1 Bulan\",\r\n\"image\": \"639b91b4567803a81b68b9f5\",\r\n\"category\": \"639b906db8cf5d93bd476069\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL_DEV}}/cms/bimbel",
+							"host": [
+								"{{URL_DEV}}"
+							],
+							"path": [
+								"cms",
+								"bimbel"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Images",
+			"item": [
+				{
+					"name": "Upload Image",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "avatar",
+									"type": "file",
+									"src": "/C:/Users/yoghi/OneDrive/Pictures/bp-banner.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{URL_DEV}}/cms/images",
+							"host": [
+								"{{URL_DEV}}"
+							],
+							"path": [
+								"cms",
+								"images"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "Get All Users",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL_DEV}}/cms/users",
+							"host": [
+								"{{URL_DEV}}"
+							],
+							"path": [
+								"cms",
+								"users"
+							],
+							"query": [
+								{
+									"key": "keyword",
+									"value": "Bahasa",
+									"disabled": true
+								},
+								{
+									"key": "category",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Users",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"fullName\": \"Yoghio\",\r\n\"email\": \"yoghio@bintangpelajar.com\",\r\n\"password\": \"rahasia\",\r\n\"confirmPassword\": \"rahasia\",\r\n\"role\": \"admin\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL_DEV}}/cms/users",
+							"host": [
+								"{{URL_DEV}}"
+							],
+							"path": [
+								"cms",
+								"users"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Orders",
+			"item": [
+				{
+					"name": "Get All Orders",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL_DEV}}/cms/orders",
+							"host": [
+								"{{URL_DEV}}"
+							],
+							"path": [
+								"cms",
+								"orders"
+							],
+							"query": [
+								{
+									"key": "starDate",
+									"value": "Bahasa",
+									"disabled": true
+								},
+								{
+									"key": "endDate",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "WEB",
+			"item": [
+				{
+					"name": "Signup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"firstName\": \"Agus\",\r\n\"lastName\": \"Sumarna\",\r\n\"email\": \"yoghi433@gmail.com\",\r\n\"password\": \"rahasia\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL_DEV}}/cms/auth/signup",
+							"host": [
+								"{{URL_DEV}}"
+							],
+							"path": [
+								"cms",
+								"auth",
+								"signup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Signin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n    \"email\": \"yoghi433@gmail.com\",\r\n    \"password\": \"rahasia\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL_DEV}}/cms/auth/signin",
+							"host": [
+								"{{URL_DEV}}"
+							],
+							"path": [
+								"cms",
+								"auth",
+								"signin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Active",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"otp\": \"498629\",\r\n\"email\": \"yoghi433@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL_DEV}}/cms/auth/active",
+							"host": [
+								"{{URL_DEV}}"
+							],
+							"path": [
+								"cms",
+								"auth",
+								"active"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CMS Auth",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"yoghio@bintangpelajar.com\",\r\n    \"password\": \"rahasia\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL_DEV}}/cms/auth/signin",
+							"host": [
+								"{{URL_DEV}}"
+							],
+							"path": [
+								"cms",
+								"auth",
+								"signin"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "URL_DEV",
+			"value": "localhost:3000/api/v1",
+			"type": "string"
+		},
+		{
+			"key": "TOKEN",
+			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmdWxsTmFtZSI6IllvZ2hpbyIsInVzZXJJZCI6IjYzOWI4ODQ0YThhOGE5ODI3OTBlZjJiZiIsInJvbGUiOiJhZG1pbiIsImVtYWlsIjoieW9naGlvQGJpbnRhbmdwZWxhamFyLmNvbSIsImlhdCI6MTY3MTE1NDgyMiwiZXhwIjoxNjcxMjQxMjIyfQ.ko1oqR3hiakeytMYgjYnXQjANEPekx1jNYkb9CTkcgY",
+			"type": "string"
+		}
+	]
+}

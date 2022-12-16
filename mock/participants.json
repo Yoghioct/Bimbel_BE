@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "639bd1ed48a584caed5ead29"
+  },
+  "firstName": "Agus",
+  "lastName": "Sumarna",
+  "email": "scyrcle@gmail.com",
+  "password": "$2a$12$6ut9aB7/jEvd.f7iCRsWcu6D/Grbo7WfHFXQx6sGJg7qsThoHpcGS",
+  "role": "-",
+  "status": "aktif",
+  "otp": "921405",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671156205740"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671156233302"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639bd3eda794a61e4fda6932"
+  },
+  "firstName": "Agus",
+  "lastName": "Sumarna",
+  "email": "yoghi433@gmail.com",
+  "password": "$2a$12$N6ttlD25xouPjZAfhHhOE.qfix5A9S94eHVfEz3qwmjqKHrR1zFNK",
+  "role": "-",
+  "status": "aktif",
+  "otp": "498629",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671156717352"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671156752853"
+    }
+  },
+  "__v": 0
+}]

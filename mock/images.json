@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "639b91b4567803a81b68b9f5"
+  },
+  "name": "uploads/80902546-bp-banner.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671139764224"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671139764224"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639b9a876129c67795285501"
+  },
+  "name": "uploads/78107855-bp-banner.png",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671142023768"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671142023768"
+    }
+  },
+  "__v": 0
+}]

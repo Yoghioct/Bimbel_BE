@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "639b8833a8a8a982790ef2bd"
+  },
+  "fullName": "Staff BP",
+  "email": "staff@bintangpelajar.com",
+  "password": "$2a$12$1MPHpEb8x0eR02DFb.wsY.bVjQh02R/u2cBQt.cYOMUtc..Fo0C5y",
+  "role": "staff",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671137331346"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671137331346"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639b8844a8a8a982790ef2bf"
+  },
+  "fullName": "Yoghio",
+  "email": "yoghio@bintangpelajar.com",
+  "password": "$2a$12$paUAAASnurX/80hnsQA5L.6KHEDOt1sLykVifvYHcoQp1xEGTRupW",
+  "role": "admin",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671137348043"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671137348043"
+    }
+  },
+  "__v": 0
+}]
