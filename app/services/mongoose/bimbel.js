@@ -137,10 +137,34 @@ const deleteBimbel = async (req) => {
   return result;
 };
 
+const changeStatusBimbel = async (req) => {
+  const { id } = req.params;
+  const { statusBimbel } = req.body;
+
+  if (!['Draft', 'Published'].includes(statusBimbel)) {
+    throw new BadRequestError('Status harus Draft atau Published');
+  }
+
+  const checkBimbel = await Bimbel.findOne({
+    _id: id,
+    // guru: req.user.guru,
+  });
+
+  if (!checkBimbel)
+    throw new NotFoundError(`Tidak ada bimbel dengan id :  ${id}`);
+
+    checkBimbel.statusBimbel = statusBimbel;
+
+  await checkBimbel.save();
+
+  return checkBimbel;
+};
+
 module.exports = {
   getAllBimbel,
   createBimbel,
   getOneBimbel,
   updateBimbel,
   deleteBimbel,
+  changeStatusBimbel,
 };

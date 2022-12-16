@@ -11,6 +11,8 @@ const imagesRouter = require('./app/api/v1/images/router')
 const bimbelRouter = require('./app/api/v1/bimbel/router')
 const usersRouter = require('./app/api/v1/users/router')
 const authCMSRouter = require('./app/api/v1/auth/router')
+const ordersRouter = require('./app/api/v1/orders/router')
+const participantsRouter = require('./app/api/v1/participants/router')
 
 const v1 = '/api/v1/cms'
 
@@ -34,6 +36,8 @@ app.use(v1, imagesRouter);
 app.use(v1, bimbelRouter);
 app.use(v1, usersRouter);
 app.use(v1, authCMSRouter);
+app.use(v1, ordersRouter);
+app.use(v1, participantsRouter);
 
 app.use(notFoundMiddleware);
 app.use(handleErrorMiddleware);

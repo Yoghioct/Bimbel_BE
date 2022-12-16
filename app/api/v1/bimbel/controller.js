@@ -4,6 +4,7 @@ const {
     updateBimbel,
     createBimbel,
     deleteBimbel,
+    changeStatusBimbel,
   } = require('../../../services/mongoose/bimbel');
   
   const { StatusCodes } = require('http-status-codes');
@@ -68,10 +69,23 @@ const {
     }
   };
   
+  const changeStatus = async (req, res, next) => {
+    try {
+      const result = await changeStatusBimbel(req);
+  
+      res.status(StatusCodes.OK).json({
+        data: result,
+      });
+    } catch (err) {
+      next(err);
+    }
+  };
+  
   module.exports = {
     index,
     find,
     update,
     destroy,
     create,
+    changeStatusBimbel,
   };
