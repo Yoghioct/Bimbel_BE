@@ -87,5 +87,6 @@ const {
     update,
     destroy,
     create,
+    changeStatus,
     changeStatusBimbel,
   };

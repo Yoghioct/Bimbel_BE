@@ -5,10 +5,16 @@ const {
 
 const {
   createTokenUser,
+  createTokenParticipant,
 } = require('./createTokenUsers');
  
 module.exports = {
   createJWT,
   isTokenValid,
   createTokenUser,
+  createTokenParticipant,
 };
+
+
+
+
